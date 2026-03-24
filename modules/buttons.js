@@ -29,16 +29,14 @@ window.addEventListener('click', (event) => {
 
 const darkMode = document.querySelector('#darkBtn');
 darkMode.addEventListener('click', ()=>{
-    alert('clicked');
-  const db =  document.body.classList.toggle('dark');
-  console.log(db);
+   document.body.classList.toggle('dark');
+  
 });
 
 console.log(darkMode);
 
 const darkModeMobile = document.querySelector('#darkModeMobile');
 darkModeMobile.addEventListener('click', ()=>{
-    alert('clicked');
-  const dmm =  document.body.classList.toggle('dark');
-  console.log(dmm);
+  document.body.classList.toggle('dark');
+  
 });

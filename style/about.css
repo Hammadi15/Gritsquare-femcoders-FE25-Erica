@@ -55,3 +55,7 @@
     text-align: left;
     margin-top: 80px;
 }
+
+body.dark {
+    color:white;
+}

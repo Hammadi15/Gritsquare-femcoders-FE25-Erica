@@ -20,8 +20,11 @@ body {
 }
 
 body.dark {
-    background-color:rgb(235, 208, 56); 
-    color:black;
+    background-color:#363627ed; 
+}
+
+body.dark h1 {
+    color:white;
 }
 
 
