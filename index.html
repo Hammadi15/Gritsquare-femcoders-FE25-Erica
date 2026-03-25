@@ -12,6 +12,10 @@
   <script src="./modules/buttons.js" type="module"></script>
   <script src="./modules/bubble.js" type="module"></script>
   <script src="./modules/emojis.js" type="module"></script>
+    <script src="./modules/cooldown.js" type="module"></script>
+      <script src="./modules/translate.js" type="module"></script>
+
+
   <title>Good Vibes</title>
 </head>
 
@@ -24,7 +28,10 @@
       <a href="./index.html"><img class="logo" src="./img/logo.png"
           alt="Clickable logo saying good vibes that takes users to homepage" /></a>
       <a href="./about.html">About</a>
-      <a href="./leaderBoard.html">LeaderBoard</a>
+      <a href="./leaderBoard.html">leaderBoard</a>
+      <a id="google_translate_element"> </a>
+
+
     </nav>
 
       <nav class="mobile-nav">
@@ -87,7 +94,7 @@
         <p>Message:</p>
         <input type="text" id="messageInput" maxlength="120" placeholder="Write something positive..." required />
         <select name="emojis" id="emojis"></select>
-        <button type="submit">Send</button>
+        <button type="submit" id="submitBtn">Send</button>
       </form>
       <div id="gifSearchSection">
         <input type="text" id="gifSearchInput" placeholder="Search for GIFs (e.g., cat, dog, happy)..." />
